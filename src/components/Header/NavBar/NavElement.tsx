@@ -1,9 +1,4 @@
-// "use client"
-
-import React, { 
-    useEffect,
-    useState,
-} from "react";
+import React from "react";
 import Link from "next/link";
 
 import { useActiveContext } from "@/context/ActiveContext";
@@ -16,12 +11,10 @@ export enum NavSections {
 
 interface NavElementProps {
     section: NavSections,
-    // activeSection : NavSections,
-    // setActiveSection: React.Dispatch<React.SetStateAction<NavSections>>,
 }
 
 const NavElement : React.FC<NavElementProps> = ({section}) => {
-    const {section: activeSection, setSection: setActiveSection} = useActiveContext();
+    const {section: activeSection, setSection: _} = useActiveContext();
 
     let navText : string = "";
     switch (section) {
