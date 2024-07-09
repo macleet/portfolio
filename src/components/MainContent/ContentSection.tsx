@@ -17,12 +17,12 @@ const ContentSection : React.FC<{section : NavSections}> = ({section}) => {
             break;
     }
 
-    const break1 = <span className="bg-orange-400" >1<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></span>;
+    const break1 = <span className="" >1<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></span>;
     const break2 = <span>2<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></span>;
 
     return(
         <div id={sectionId}>
-            {section === NavSections.About && <p className="bg-red-500">The summer I moved to India from New Jersey, I often found myself inside rather than outside 
+            {section === NavSections.About && <p className="">The summer I moved to India from New Jersey, I often found myself inside rather than outside 
                 of the house. The downside to being indoors, while cool and dry, is that indoors gets <i>very</i> old after a while. 
                 One week, I got so bored that I decided I wanted to learn something. And that something was how to create a website. 
                 I remember fiddling around with markup, style sheets, and scripts for days to create this website for myself. I have
