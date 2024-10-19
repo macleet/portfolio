@@ -1,17 +1,11 @@
-"use client"
-
-import Header from "@/components/Header/Header";
-import MainContent from "@/components/MainContent/MainContent";
-
-import { ActiveProvider } from "@/context/ActiveContext";
+import Header from "../components/Header";
+import MainContent from "../components/MainContent/MainContent";
 
 export default function Page() {
     return (
-        <div className="h-fit flex flex-col lg:flex-row items-center lg:justify-evenly lg:items-stretch px-0 lg:px-2">
-            <ActiveProvider>
-                <Header />
-                <MainContent />
-            </ActiveProvider>
+        <div className="from-15% via-40% to-65% bg-gradient-to-br from-sky-200 via-blue-200 to-indigo-200 flex flex-col justify-between items-center gap-6 p-4">
+            <Header />
+            <MainContent />
         </div>
     );
 }
