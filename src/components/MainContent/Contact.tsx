@@ -1,4 +1,4 @@
-export default () => {
+export default function Contact() {
     return(
         <div className="flex items-center gap-5" >
             <a title="GitHub" href="https://github.com/macleet" target="#" >
@@ -12,4 +12,4 @@ export default () => {
             </a>
         </div>
     );
-};
+}

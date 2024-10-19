@@ -4,7 +4,7 @@ interface ProjectProps {
     skills: string[];
 }
 
-export default ({name, description, skills}: ProjectProps) => {
+export default function ProjectTile({name, description, skills}: ProjectProps) {
     return(
         <div className="transition-all ease-in-out bg-sky-100 bg-opacity-35 hover:bg-opacity-50 flex flex-col justify-between gap-3 px-4 py-3 border-2 border-sky-300 border-opacity-5 hover:border-opacity-10 border-solid rounded-2xl" >
             <a title="See project details" tabIndex={0} className="hover:text-blue-900 text-center w-fit text-lg font-medium hover:font-semibold hover:cursor-pointer transition-all after:content-['_↗'] after:text-sm hover:after:text-base hover:after:font-medium after:transition-all" >{name}</a>

@@ -1,6 +1,6 @@
 import ProjectTile from "./ProjectTile";
 
-export default () => {
+export default function Projects() {
     const projects = [
         {
             name: "Productivity Web App",
@@ -44,4 +44,4 @@ export default () => {
             </div>
         </div>
     );
-};
+}
