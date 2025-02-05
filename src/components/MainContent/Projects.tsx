@@ -15,15 +15,21 @@ export default function Projects() {
         },
         {
             name: "Inventory Management Mobile App",
-            description: "Simplify your inventory management with a mobile app designed \
-            for ease of use and efficiency. Track essential data points such as par levels \
-            and quantities with a user-friendly interface that keeps everything at your \
-            fingertips. The app features a built-in calendar and reminder system for inventory \
-            checks and delivery notifications, ensuring you're always prepared. With the ability \
-            to create an account, you can seamlessly manage your inventory across devices and \
-            access it from anywhere. Stay organized, informed, and in control with this powerful \
-            inventory management tool.",
-            skills: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "Passport.js", "OAuth", "Argon2", "Tailwind CSS"]
+            description:`Simplify your inventory management with a mobile app designed for ease of use 
+            and security. Keep track of essential details, including item name, notes, category, unit type, 
+            supplier, and SKU—all in one place. Employees can easily flag low-stock items to notify management, 
+            ensuring timely restocking. With secure login powered by Argon2id hashing, you can access your 
+            inventory seamlessly across multiple devices. Stay organized, informed, and in control with a 
+            streamlined, secure solution for managing your inventory.`,
+            // description: "Simplify your inventory management with a mobile app designed \
+            // for ease of use and efficiency. Track essential data points such as par levels \
+            // and quantities with a user-friendly interface that keeps everything at your \
+            // fingertips. The app features a built-in calendar and reminder system for inventory \
+            // checks and delivery notifications, ensuring you're always prepared. With the ability \
+            // to create an account, you can seamlessly manage your inventory across devices and \
+            // access it from anywhere. Stay organized, informed, and in control with this powerful \
+            // inventory management tool.",
+            skills: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "SQLite", "Passport.js", "OAuth", "Argon2", "Tailwind CSS"]
         },
         {
             name: "Personal Website",
