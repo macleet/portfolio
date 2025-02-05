@@ -4,14 +4,14 @@ export default function Projects() {
     const projects = [
         {
             name: "Productivity Web App",
-            description: "Take control of your time and tasks with this all-in-one productivity app. \
-            Organize your to-dos into custom folders, set due dates, and prioritize with ease. Break \
-            down larger tasks into manageable steps with AI-generated suggestions for enhanced \
-            efficiency. Boost focus using the built-in Pomodoro timer, and track your progress \
-            with detailed productivity charts that balance work and rest hours. Whether you're \
-            managing personal projects or daily tasks, this app empowers you to stay organized \
-            and productive while maintaining a healthy balance.",
-            skills: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL", "Tailwind CSS"]
+            description: "Take control of your time and tasks with this all-in-one productivity app. Effortlessly \
+            organize your to-dos into custom folders, set due dates, and prioritize tasks with ease. Break down larger \
+            tasks into manageable phases and steps with AI-generated suggestions, boosting efficiency and clarity. Stay \
+            focused with the built-in Pomodoro timer and track your progress with detailed productivity charts that monitor \
+            both work and rest hours. With powerful search functionality and intuitive link management for task organization, \
+            this app helps you stay on top of personal projects and daily tasks while maintaining a healthy balance between \
+            productivity and well-being.",
+            skills: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "react-chartjs-2", "LLM"]
         },
         {
             name: "Inventory Management Mobile App",
@@ -23,7 +23,7 @@ export default function Projects() {
             to create an account, you can seamlessly manage your inventory across devices and \
             access it from anywhere. Stay organized, informed, and in control with this powerful \
             inventory management tool.",
-            skills: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "Passport.js", "JWT", "Argon2", "Tailwind CSS"]
+            skills: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "Passport.js", "OAuth", "Argon2", "Tailwind CSS"]
         },
         {
             name: "Personal Website",
