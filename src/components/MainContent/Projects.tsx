@@ -44,7 +44,7 @@ export default function Projects() {
 
     return(
         <div className="flex flex-col justify-between gap-2">
-            <h2 className="font-semibold text-xl text-left">My Projects</h2>
+            <h2 className="font-semibold text-xl">My Projects</h2>
             <div className="flex flex-col justify-between gap-3" >
                 {projects.map((project, index) => <ProjectTile key={index} {...project} />)}
             </div>
