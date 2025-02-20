@@ -11,7 +11,8 @@ export default function Projects() {
             both work and rest hours. With powerful search functionality and intuitive link management for task organization, \
             this app helps you stay on top of personal projects and daily tasks while maintaining a healthy balance between \
             productivity and well-being.",
-            skills: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "react-chartjs-2", "LLM"]
+            skills: ["React", "JavaScript", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "react-chartjs-2", "LLM"],
+            url: "https://task-manager-front-bmmt.onrender.com/"
         },
         {
             name: "Inventory Management Mobile App",
@@ -29,7 +30,8 @@ export default function Projects() {
             // to create an account, you can seamlessly manage your inventory across devices and \
             // access it from anywhere. Stay organized, informed, and in control with this powerful \
             // inventory management tool.",
-            skills: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "SQLite", "Passport.js", "OAuth", "Argon2", "Tailwind CSS"]
+            skills: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "SQLite", "Passport.js", "OAuth", "Argon2", "Tailwind CSS"],
+            url: ""
         },
         {
             name: "Personal Website",
@@ -38,7 +40,8 @@ export default function Projects() {
             or desktop, my work is presented in a clean layout that adapts seamlessly to \
             any screen size. With a clean, intuitive interface, you can easily explore my projects \
             and skills.",
-            skills: ["React", "Next.js", "Vercel", "TypeScript", "Tailwind CSS"]
+            skills: ["React", "Next.js", "Vercel", "TypeScript", "Tailwind CSS"],
+            url: ""
         }
     ];
 
